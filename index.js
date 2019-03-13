@@ -1,13 +1,13 @@
 var musicians = ['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Starr'];
 var instruments = [guitar, 'Bass Guitar', 'Lead Guitar', Drums];
-var empty = ["John Lennon plays guitar"];
+var empty = [];
 
 function theBeatlesPlay(musicians,instruments) {
-  var empty = ["John Lennon plays guitar"];
-for (let instruments = 1; instruments < 4; instruments++) {
-  for (let musicians = 1; musicians < 4; musicians++) {
- empty.push(`"${musicians} + plays ${instruments}"`);}}
-  return theBeatlesPlay(musicians,instruments);
+  var empty = [];
+  for (let i = 0; i < 4; i++) {
+ musicians = musicians[i] + 'plays' + instruments[i];
+ musicians = empty;}
+  return empty;
 }
 
 const facts = [
