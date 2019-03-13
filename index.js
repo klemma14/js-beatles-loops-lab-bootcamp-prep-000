@@ -2,7 +2,7 @@ var arraym = ['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Starr']
 var arrayi = [guitar, 'Bass Guitar', 'Lead Guitar', Drums];
 var empty = ["John Lennon plays guitar"];
 
-function theBeatlesPlay(arraym,arrayi) {
+function theBeatlesPlay(musicians,instruments) {
   var empty = ["John Lennon plays guitar"];
 for (let arrayi = 1; arrayi < 4; arrayi++) {
   for (let arraym = 1; arraym < 4; arraym++) {
