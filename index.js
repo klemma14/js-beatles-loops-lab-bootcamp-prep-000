@@ -2,7 +2,7 @@ var musicians = ['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Star
 var instruments = ['guitar', 'Bass Guitar', 'Lead Guitar', 'Drums'];
 
 function theBeatlesPlay(musicians,instruments) {
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 3; i++) {
  var musiciansString;
  var empty = [];
  musiciansString = musicians[i] + 'plays' + instruments[i];
