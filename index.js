@@ -11,16 +11,16 @@ var musiciansString;
 }
 
 const facts = [
-  'foo',
+  "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
 function johnLennonFacts(facts) {
   var i = 0;
-  var newFacts = []
+  var newFacts = [];
  while (i < 4) {
-   newFacts.push(`${facts[i]}` + "!!!");
+   facts.push(`${facts[i]}` + "!!!");
    i++;}
    return newFacts;
 }
