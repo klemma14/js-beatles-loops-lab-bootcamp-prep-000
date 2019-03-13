@@ -30,6 +30,7 @@ function iLoveTheBeatles(number) {
   var empty2 = [];
   do {empty2.push("I love the Beatles!");}
   while(i < 15);
+  i++;
   return empty2;
 }
 
