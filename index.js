@@ -4,8 +4,10 @@ var empty = [];
 
 function theBeatlesPlay(musicians,instruments) {
   for (let i = 0; i < 4; i++) {
- musicians = `${musicians[i]} + 'plays' + ${instruments[i]}`;
- musicians = empty;}
+ var musiciansString
+ var empty;
+ musiciansString = `${musicians[i]} + 'plays' + ${instruments[i]}`;
+ musiciansString = empty;}
   return empty;
 }
 
