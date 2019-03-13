@@ -5,7 +5,7 @@ var empty = ["John Lennon plays guitar"];
 function theBeatlesPlay(musicians,instruments) {
   var empty = ["John Lennon plays guitar"];
 for (let arrayi = 1; arrayi < 4; arrayi++) {
-  for (let arraym = 1; arraym < 4; arraym++) {
+  for (let musicians = 1; arraym < 4; arraym++) {
  empty.push(`"${arraym} + plays ${arrayi}"`);}}
   return theBeatlesPlay(arraym,arrayi);
 }
