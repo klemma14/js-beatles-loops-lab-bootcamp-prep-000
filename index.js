@@ -1,4 +1,4 @@
-var arraym = ['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Starr'];
+var musicians = ['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Starr'];
 var arrayi = [guitar, 'Bass Guitar', 'Lead Guitar', Drums];
 var empty = ["John Lennon plays guitar"];
 
